@@ -1,0 +1,195 @@
+/* Add a specific class to namespace the styles */
+.alerts-page-container body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.alerts-page-container {
+    display: flex;
+    height: 100vh;
+}
+
+.alerts-page-container .sidebar {
+    width: 200px;
+    background-color: #eaeaea;
+    padding: 20px;
+}
+
+.alerts-main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.alerts-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.alerts-search-bar {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.alerts-user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.alerts-filter-button {
+    background: #8fce00;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.alerts-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.alerts-profile-img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.alerts-content {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.alerts-esg-updates {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 2;
+}
+
+.alerts-esg-updates h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.alerts-updates-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.alerts-update-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.alerts-update-content {
+    flex: 1;
+}
+
+.alerts-update-content h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.alerts-update-content p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.alerts-update-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.alerts-update-actions button {
+    background: none;
+    border: none;
+    color: #8fce00;
+    cursor: pointer;
+}
+
+.alerts-time {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.alerts-notification-filters {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.alerts-notification-filters h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.alerts-notification-filters ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.alerts-notification-filters li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.alerts-filter-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alerts-apply-all, .alerts-clear-all {
+    background: #8fce00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alerts-clear-all {
+    background: #ff6b6b;
+}
+.alerts-apply-all:hover,
+.alerts-clear-all:hover {
+  background-color: #6fbd00; /* Darker shade of green on hover */
+}
+
+.alerts-apply-all:active,
+.alerts-clear-all:active {
+  background-color: #5aa800; /* Even darker shade when clicked */
+}
+.alerts-filter-button:hover{
+    background-color: #6fbd00; /* Darker shade of green on hover */
+}
